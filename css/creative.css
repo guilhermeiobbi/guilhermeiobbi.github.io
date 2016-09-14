@@ -453,12 +453,3 @@ body {
   -webkit-transition: none !important;
   transition: none !important;
 }
-<<<<<<< HEAD
-.devicon-bootstrap-plain {
-  font-size: 40px;
-}
-=======
-@font-face {
-   font-family: myFirstFont;
-   src: url(../fonts/ALincolnFont.ttf);
-}

@@ -143,4 +143,21 @@ p.bar-chart .label {
 }
 .bar-label {
     font-size: 14px;
+    text-align: center;
+    color: #777; 
 } 
+.div-lang {
+    border-left: 1px solid #c7c7c7; 
+    margin: 15px 0 15px 0;
+}
+.margin-bars {
+    margin-right: 20px;
+    text-align: center;
+}
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.title-skills {
+    margin-bottom: 20px;
+}
