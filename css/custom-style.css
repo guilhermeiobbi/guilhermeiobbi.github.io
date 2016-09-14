@@ -1,0 +1,146 @@
+.align-r {
+    text-align: right !important;
+}
+
+#bar-chart {
+    display: block;
+}
+.bar-chart {
+    background: rgba(0, 0, 0, 0) url("../img/axis.png") repeat-x scroll 0 0;
+    height: 450px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.bar-chart li {
+    background-color: #ccc;
+    border: 1px solid #bbb;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.6) inset;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 100%;
+    margin: 0 1.8% 0 0;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+    width: 16%;
+}
+.bar-chart li:nth-child(6n) {
+    margin-right: 0;
+}
+.bar-chart .percent {
+    bottom: 50px;
+    font-size: 4.5rem;
+    line-height: 1em;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+}
+.bar-chart .percent span {
+    font-size: 2.4rem;
+    padding-left: 3px;
+}
+.bar-chart .skill {
+    bottom: 20px;
+    font-size: 1.2rem;
+    position: absolute;
+    width: 100%;
+}
+.bar-chart .p-30 {
+    height: 30%;
+}
+.bar-chart .p-40 {
+    height: 40%;
+}
+.bar-chart .p-75 {
+    height: 75%;
+}
+.bar-chart .p-80 {
+    height: 80%;
+}
+.bar-chart .p-85 {
+    height: 85%;
+}
+.bar-chart .p-90 {
+    height: 90%;
+}
+.bar-chart .p-95 {
+    height: 95%;
+}
+.bar-chart .p-100 {
+    height: 100%;
+}
+.bar-chart .aqua {
+    background-color: #b0dbd6;
+    background-image: -moz-linear-gradient(center bottom , #5fb2a8 0%, #b0dbd6 100%);
+    border-color: #8dc5be;
+}
+.bar-chart .pink {
+    background-color: #f4dcd6;
+    background-image: -moz-linear-gradient(center bottom , #e1ae9e 0%, #f4dcd6 100%);
+    border-color: #ebc0b5;
+}
+.bar-chart .yellow {
+    background-color: #efc563;
+    background-image: -moz-linear-gradient(center bottom , #dfae36 0%, #efc563 100%);
+    border-color: #e7af30;
+}
+.bar-chart .brown {
+    background-color: #dcba83;
+    background-image: -moz-linear-gradient(center bottom , #bc8e5b 0%, #dcba83 100%);
+    border-color: #dcb386;
+}
+.bar-chart .red {
+    background-color: #da6d6c;
+    background-image: -moz-linear-gradient(center bottom , #ca4544 0%, #da6d6c 100%);
+    border-color: #e14949;
+}
+.bar-chart li.axis {
+    width: 8%;
+    border: 0;
+    border-right: #ddd solid 1px;
+    height: 450px;
+    background: #fafafa;
+    -webkit-box-shadow: inset 0 0 0 0 #ffffff;
+    -moz-box-shadow: inset 0 0 0 0 #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+.bar-chart .label {
+    color: #666666;
+    margin: -0.6em 0 88px 0px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+/* Teste */
+p.bar-chart .label {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: -06.em 0 92px 0;
+}
+.bar-chart li {
+    margin: 0 2% 0 0;
+}
+.bar-chart .skill {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+.bar-chart .percent  {
+    font-size: 60px;
+    font-size: 6rem;
+}
+.container-footer {
+    border-top: 1px solid #cac8b8;
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bar-label {
+    font-size: 14px;
+} 
