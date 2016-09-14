@@ -161,3 +161,8 @@ p.bar-chart .label {
 .title-skills {
     margin-bottom: 20px;
 }
+.li-lang {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+}
