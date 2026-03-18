@@ -1,358 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Guilherme Iobbi</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon-code.ico">
-
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/custom-style.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guilherme Iobbi — Backend Engineer specializing in Go, microservices and distributed systems at Mercado Livre." />
+  <meta name="author" content="Guilherme Iobbi" />
+  <meta property="og:title" content="Guilherme Iobbi — Backend Engineer" />
+  <meta property="og:description" content="Building high-scale distributed systems with Go at Mercado Livre." />
+  <title>Guilherme Iobbi — Backend Engineer</title>
+  <link rel="icon" href="img/favicon-code.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+<body>
 
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"> Guilherme Iobbi </a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#profile">Profile</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                    <li class="li-lang">
-                        <div class="div-lang"></div>
-                        <a href="index.html" style="padding-right: 5px;"><span class="label label-default">PT</span></a>
-                        <a href="#" style="padding-left: 5px;"><span class="label label-success">EN</span></a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-container">
+      <a class="nav-brand" href="#">gi<span class="accent">.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#stack">Stack</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <div class="lang-toggle">
+          <a href="index.html">PT</a>
+          <span class="sep">/</span>
+          <span class="active">EN</span>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <img class="round-image" src="img/me.jpg" alt="Image">
-                <h1 id="homeHeading">Hi, I'm Guilherme.</h1>
-                <hr>
-                <p>I'm a Developer, aspiring entrepreneur, highly practical human being and cat lover who lives in São Paulo and tries to make the best decisions to turn life awesome.</p>
-            </div>
-        </div>
-    </header>
-
-    <section id="profile">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Personal Profile</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-battery-full text-primary sr-icons"></i>
-                        <h3>Energyful-willing</h3>
-                        <p class="text-muted">Full-time challenge seeker</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code text-primary sr-icons"></i>
-                        <h3>Pragmatic</h3>
-                        <p class="text-muted">Practicing the good code principles</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
-                        <h3>Collaborative</h3>
-                        <p class="text-muted">Leadership profile with great interpersonal skills</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Passionate</h3>
-                        <p class="text-muted">Everything made with <3</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Hey there!</h2>
-                    <hr class="light">
-                    <p class="text-faded">Did I mention I'm a full-stack Java developer?</p>
-                    <a href="#skills" class="page-scroll btn btn-default btn-xl sr-button">See more</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Technical Skills</h2>
-                        <hr class="primary">
-                </div>
-            </div>
-            <div class="container-bars">
-                    
-                <div class="col-md-5">
-                    <div class="row">
-                        <h3 class="text-center title-skills"><i class="fa fa-1x fa-line-chart"></i>&nbsp;&nbsp;&nbsp;Software Development</h3>
-                    </div>    
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Java</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="90" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Javascript</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="75" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Node.js</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="50" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Android</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="40" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">SQL</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="75" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">HTML/CSS</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="80" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-1"> </div>
-
-                <div class="col-md-5">
-                    <div class="row">
-                        <h3 class="text-center title-skills"><i class="fa fa-1x fa-cogs"></i>&nbsp;&nbsp;&nbsp;Frameworks</h3>
-                    </div>    
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">JSF</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="95" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Spring</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="75" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Hibernate</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="65" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Primefaces</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="85" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Maven</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="75" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2" style="margin-right: 10px;">
-                            <p class="bar-label">Bootstrap</p>
-                        </div>
-                        <div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="90" style="width: 0%; height: 40px"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Contact me</h2>
-                    <hr class="primary">
-                    <p>You may want to find me elsewhere</p>
-                </div>
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <div class="col-md-1 col-md-offset-4 sr-contact">
-                        <a href="mailto:guilherme.iobbi@gmail.com"><i class="fa fa-envelope-square fa-3x"></i></a>
-                    </div>
-                    <div class="col-md-1 sr-contact">
-                        <a href="https://github.com/guilhermeiobbi"><i class="fa fa-github-square fa-3x"></i></a>
-                    </div>
-                    <div class="col-md-1 sr-contact">
-                        <a href="https://linkedin.com/in/guilhermeiobbi"><i class="fa fa-linkedin-square fa-3x"></i></a>
-                    </div>
-                    <div class="col-md-1 sr-contact">
-                        <a href="https://fb.com/guilherme.iobbi"><i class="fa fa-facebook-square fa-3x"></i></a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="row">                
-                <div class="col-lg-8 col-lg-offset-2 text-center" style="margin-top: 20px;">
-                    <p>Or maybe see more about me</p>
-                    <a href="files/eng-resume-green.pdf" target="_blank" class="page-scroll btn btn-default btn-xl sr-button" 
-                       style="background-color: #489c63; color: white !important">
-                       <i class="fa fa-file-text fa-1x"></i>&nbsp;&nbsp;&nbsp;Download Resume</a>
-                </div>
-            </div> -->
-
-        </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted-footer">© Copyright 2016. Guilherme Iobbi - All Rights Reserved.</p>
       </div>
-    </footer>
+    </div>
+  </nav>
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <!-- Hero -->
+  <section id="home">
+    <div class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content">
+        <p class="hero-label">Backend Engineer @ Mercado Livre</p>
+        <h1 class="hero-title">
+          Guilherme<br><span class="accent">Iobbi</span>
+        </h1>
+        <p class="hero-sub">
+          Building high-scale distributed systems.<br>
+          Go · Microservices · Complex Architectures.
+        </p>
+        <div class="hero-actions">
+          <a href="#experience" class="btn btn-primary">See Experience</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-scroll">↓</div>
+    </div>
+  </section>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// about</span>
+        <h2>Engineer focused on real impact</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I work on backend development at <strong>Mercado Livre</strong>,
+            one of Latin America's largest tech ecosystems.
+            My focus is building systems that actually work: reliable,
+            performant and ready to handle the scale of a platform serving
+            hundreds of millions of users.
+          </p>
+          <p>
+            My primary language is <strong>Go</strong>. I work with
+            microservice architectures, high-availability APIs,
+            message-driven systems and distributed data pipelines.
+            I believe well-managed complexity is what separates systems
+            that scale from those that crack under pressure.
+          </p>
+          <p>
+            Beyond technology, what matters to me is <strong>delivery</strong>:
+            code that leaves the PR and reaches end users with quality,
+            observability and zero drama in production.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="about-card reveal reveal-delay-1">
+            <div class="about-card-header">
+              <span class="about-card-icon">⚡</span>
+              <h3>High Performance</h3>
+            </div>
+            <p>Systems optimized to serve millions of requests with controlled latency and efficient resource usage.</p>
+          </div>
+          <div class="about-card reveal reveal-delay-2">
+            <div class="about-card-header">
+              <span class="about-card-icon">🔗</span>
+              <h3>Distributed Systems</h3>
+            </div>
+            <p>Design and implementation of resilient microservices with async communication and resilience by default.</p>
+          </div>
+          <div class="about-card reveal reveal-delay-3">
+            <div class="about-card-header">
+              <span class="about-card-icon">📦</span>
+              <h3>Continuous Delivery</h3>
+            </div>
+            <p>CI/CD, observability and engineering practices that make every deployment predictable and drama-free.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+  <!-- Stack -->
+  <section class="section section-dark" id="stack">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// stack</span>
+        <h2>Technologies &amp; Tools</h2>
+      </div>
+      <div class="stack-grid">
 
-    <!-- Theme JavaScript -->
-    <script src="js/creative.js"></script>
+        <div class="stack-category reveal">
+          <p class="category-label">Languages</p>
+          <div class="tags">
+            <span class="tag tag-primary">Go</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Shell</span>
+          </div>
+        </div>
 
+        <div class="stack-category reveal reveal-delay-1">
+          <p class="category-label">Infrastructure</p>
+          <div class="tags">
+            <span class="tag">Kubernetes</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">AWS</span>
+          </div>
+        </div>
+
+        <div class="stack-category reveal reveal-delay-2">
+          <p class="category-label">Data &amp; Messaging</p>
+          <div class="tags">
+            <span class="tag">Kafka</span>
+            <span class="tag">Redis</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="stack-category reveal reveal-delay-3">
+          <p class="category-label">Protocols &amp; Patterns</p>
+          <div class="tags">
+            <span class="tag">gRPC</span>
+            <span class="tag">REST</span>
+            <span class="tag">Protobuf</span>
+            <span class="tag">GraphQL</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// experience</span>
+        <h2>Where I've worked</h2>
+      </div>
+      <div class="experience-list">
+
+        <div class="exp-item reveal">
+          <div class="exp-meta">
+            <span class="exp-period">2022 — present</span>
+            <span class="exp-company">Florianópolis, BR</span>
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-role">Backend Engineer</h3>
+            <span class="exp-company-primary">Mercado Livre</span>
+            <ul class="exp-bullets">
+              <li>Building Go microservices for high-scale platforms serving millions of concurrent users across Latin America.</li>
+              <li>Designing distributed architectures focused on resilience, low latency and high availability.</li>
+              <li>Integration with messaging systems (Kafka) for async event pipelines critical to business operations.</li>
+              <li>Cross-team collaboration on high-impact projects, from technical definition through production rollout.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="exp-item reveal">
+          <div class="exp-meta">
+            <span class="exp-period">Previously</span>
+            <span class="exp-company">Brazil</span>
+          </div>
+          <div class="exp-content">
+            <h3 class="exp-role">Full-Stack Developer</h3>
+            <span class="exp-company-primary">Previous experiences</span>
+            <ul class="exp-bullets">
+              <li>Web application development with Java, Spring and Node.js.</li>
+              <li>REST API development and integration with relational and non-relational databases.</li>
+              <li>Progressive transition to the Go ecosystem and event-driven architectures.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// contact</span>
+        <h2>Let's talk?</h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-intro reveal">
+          <p>
+            Open to conversations about technology, distributed systems
+            engineering, opportunities or any relevant technical discussion.
+            Find me through the channels below.
+          </p>
+        </div>
+        <div class="contact-links reveal reveal-delay-1">
+
+          <a href="mailto:guilherme.iobbi@gmail.com" class="contact-item">
+            <div class="contact-icon-wrap">✉</div>
+            <div class="contact-text">
+              <span class="contact-label">email</span>
+              <span class="contact-value">guilherme.iobbi@gmail.com</span>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+          <a href="https://github.com/guilhermeiobbi" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon-wrap">gh</div>
+            <div class="contact-text">
+              <span class="contact-label">github</span>
+              <span class="contact-value">github.com/guilhermeiobbi</span>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+          <a href="https://linkedin.com/in/guilhermeiobbi" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon-wrap">in</div>
+            <div class="contact-text">
+              <span class="contact-label">linkedin</span>
+              <span class="contact-value">linkedin.com/in/guilhermeiobbi</span>
+            </div>
+            <span class="contact-arrow">→</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2025 Guilherme Iobbi</p>
+        <p>Built with <span class="footer-accent">Go</span> at heart</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
